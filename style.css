@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f6efe6;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    padding: 1% 10rem;
+    border-radius: .5rem;
+}
+.branding h1 {
+    font-size: 2rem;
+    color: beige;
+}
+.timer {
+    background-color: black;
+    font-size: 5rem;
+    color: #fff;
+    padding: 0 8px;
+    margin-top: 10px;
+    border-radius: .6rem;
+}
+.controls {
+    margin-top: 20px;
+}
+.controls .btn {
+    background-color: brown;
+    border: 0;
+    padding: 8px 20px;
+    color: #fff;
+    margin: 0 5px;
+}
+.controls .btn:hover {
+    background-color: rgb(165, 68, 68);
+    cursor: pointer;
+}
+.lap-list {
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 6%;
+}
+.lap-list p {
+    display: inline-block;
+    width: 80%;
+    background-color: gray;
+    color: #fff;
+    margin: 10px 0;
+    padding: 1%;
+    border-radius: .2rem 0 0 .2rem;
+    letter-spacing: 10px;
+}
+.lap-list span {
+    width: 20%;
+    background-color: red;
+    color: #fff;
+    padding: 1%;
+    border-radius: 0 .2rem .2rem 0;
+    cursor: pointer;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 1%;
+    background-color: #000098;
+    color: #fff;
+    width: 100%;
+}
+footer p span {
+    color: red;
+}
